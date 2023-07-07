@@ -1,0 +1,20 @@
+package orietanacao;
+
+public class dataTeste {
+	public static void main(String[] args) {
+		data  d = new data();
+		
+		
+		var d2 = new data();
+		d2.dia = 04;
+		d2.mes = 12;
+		d2.ano = 2007;
+		
+		String dataFinal = d.dataFormatada();
+		
+		System.out.printf(dataFinal);
+		System.out.printf("%d/%d/%d\n",d2.dia,d2.mes,d2.ano);
+		
+		d2.ImprimirDataFormata();
+}
+}

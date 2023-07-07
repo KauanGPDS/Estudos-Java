@@ -1,0 +1,18 @@
+package orietanacao;
+
+public class comida {
+	String comida;
+	double caloriasComida;
+	
+	
+	comida(double caloriasComida){
+		
+	}
+	comida(String comida,double caloriasComida){
+		this.comida = comida;
+		this.caloriasComida = caloriasComida;
+		
+	}
+	
+
+}

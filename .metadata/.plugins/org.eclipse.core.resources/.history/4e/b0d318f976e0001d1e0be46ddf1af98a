@@ -1,0 +1,20 @@
+package orietanacao;
+
+public class data {
+	public static void main(String[] args) {
+		dataTeste d = new dataTeste();
+		d.dia = 26;
+		d.mes =11;
+		d.ano = 2004;
+		
+		var d2 = new dataTeste();
+		d2.dia = 04;
+		d2.mes = 12;
+		d2.ano = 2007;
+		
+		System.out.printf("%d/%d/%d",d.dia,d.mes,d.ano);
+		System.out.printf("%d/%d/%d",d2.dia,d2.mes,d2.ano);
+		
+	}
+
+}

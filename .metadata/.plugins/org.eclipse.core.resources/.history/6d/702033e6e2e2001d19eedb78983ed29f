@@ -1,0 +1,41 @@
+package orietanacao;
+
+public class pessoa {
+	String pessoa;
+	int idade;
+	double peso;
+	double caloriasAtual;
+	double contador = 0;
+	
+	pessoa(){
+		
+	}
+	pessoa(String pessoa,int idade,double peso){
+		this.pessoa = pessoa;
+		this.idade = idade;
+		this.peso = peso;
+	}
+	void comer(){
+		double caloriasDodia = caloriasAtual + 3.1;
+		double calculo =  Math.round(caloriasDodia  - caloriasAtual);
+		contador = calculo;
+		
+				if(calculo >= 1.0){
+					for(int i = 0; i< contador;i++) {
+						System.out.println("Pessoa engordou "+ contador + "kg" );
+						
+						}
+			
+			for(int i = 0; i< contador;i++) {
+			peso += 1.0;
+			
+			}
+			System.out.println(peso);
+			
+		}else {
+			System.out.println("Não engordou nada no dia");
+		}
+	}
+	
+
+}

@@ -1,0 +1,13 @@
+package generics;
+
+public class CaixaIntTeste {
+	public static void main(String[] args) {
+		CaixaInt<String> CaixaA = new CaixaInt<>();
+		CaixaA.aguarda("Teste");
+		
+		
+		String coisaA = CaixaA.abrir();
+		System.out.println(coisaA);
+	}
+
+}

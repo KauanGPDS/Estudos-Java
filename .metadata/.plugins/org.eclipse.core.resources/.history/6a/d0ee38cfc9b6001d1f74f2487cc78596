@@ -1,0 +1,38 @@
+package controle;
+
+import java.util.Scanner;
+
+public class desafioDIaSemana {
+	public static void main(String[] args) {
+		Scanner entrada = new Scanner(System.in);
+		System.out.println("Digite o dia ");
+		String d = entrada.nextLine();
+		
+		if( d == "Segunda") {
+			System.out.println("primeiro dia");
+		}
+		if( d == "Terca") {
+			System.out.println("primeiro Segundo");
+		}
+		if( d == "Quarta") {
+			System.out.println("primeiro Terceiro");
+		}
+		if( d == "Quinta") {
+			System.out.println("primeiro Quarto");
+		}
+		if( d == "Sexta") {
+			System.out.println("primeiro Quinto");
+		}
+		if( d == "Sabado") {
+			System.out.println("primeiro Sexto");
+		}
+		if( d == "Domingo") {
+			System.out.println("primeiro Setimo");
+		}else {
+			System.out.println("Dia Invalidado");
+		}
+		
+		entrada.close();
+	}
+
+}

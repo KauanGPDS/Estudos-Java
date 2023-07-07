@@ -1,0 +1,17 @@
+package orietanacao;
+
+public class ProdutoTeste {
+	
+	String nome;
+	double preco;
+	double desconto;
+	ProdutoTeste(String nomeIncial){
+		nome = nomeIncial;
+		
+	}
+	
+	double precoComDesconto(double descontoDoGerente) {
+		return (preco*(desconto+descontoDoGerente))/100;
+	}
+
+}

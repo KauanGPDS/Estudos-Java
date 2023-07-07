@@ -1,0 +1,12 @@
+package br.com.cod3r.cm.visao;
+
+import br.com.cod3r.cm.modelo.tabuleiro;
+
+public class aplicacao {
+
+	public static void main(String[] args) {
+		tabuleiro tabuleiro = new tabuleiro(6,6,6);
+		
+		System.out.println(tabuleiro);
+	}
+}

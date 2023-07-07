@@ -1,0 +1,10 @@
+package orietanacao;
+
+public class Produto {
+	public static void main(String[] args) {
+		Produto p = new Produto();
+		p.nome = "note";
+		p.pre
+	}
+
+}

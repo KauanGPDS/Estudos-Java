@@ -1,0 +1,12 @@
+package generics;
+
+public class caixaObjetoTeste {
+	public static void main(String[] args) {
+		CaixaObjeto caixaA = new CaixaObjeto();
+		caixaA.aguarda(caixaA);
+		
+		Double coisa = (Double) caixaA.abrir();
+		System.out.println(coisa);
+	}
+
+}

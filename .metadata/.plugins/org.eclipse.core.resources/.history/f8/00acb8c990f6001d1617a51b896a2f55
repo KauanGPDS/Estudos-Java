@@ -1,0 +1,22 @@
+package swing;
+
+import java.awt.FlowLayout;
+
+import javax.swing.JButton;
+import javax.swing.JFrame;
+
+public class obseravador {
+	public static void main(String[] args) {
+		
+		JFrame janele = new JFrame("Observador");
+		janele.setDefaultCloseOperation(JFrame.DISPOSE_ON_CLOSE);
+		janele.setSize(600,200);
+		janele.setLayout(new FlowLayout());
+		
+		JButton botao = new JButton("Clicar");
+		janele.add(botao);
+		
+		janele.setVisible(true);
+	}
+
+}

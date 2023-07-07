@@ -1,0 +1,11 @@
+package ClassEModulo;
+
+public class Produto {
+	String nome;
+	double preco;
+	double desconto;
+	
+	
+	
+
+}

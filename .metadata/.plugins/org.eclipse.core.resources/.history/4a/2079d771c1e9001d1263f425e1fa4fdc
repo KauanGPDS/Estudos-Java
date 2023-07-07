@@ -1,0 +1,11 @@
+package oo.composicoesDesafio;
+
+import java.util.ArrayList;
+import java.util.List;
+
+public class Compra {
+	List<item> produto = new ArrayList<>();
+	
+	
+	 
+}

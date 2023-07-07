@@ -1,0 +1,8 @@
+package ClassEModulo;
+
+public class dataTeste {
+	int dia;
+	int mes;
+	int ano;
+
+}

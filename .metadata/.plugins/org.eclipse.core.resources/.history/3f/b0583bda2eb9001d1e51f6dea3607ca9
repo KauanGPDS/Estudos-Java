@@ -1,0 +1,12 @@
+package ClassEModulo;
+
+public class dataTeste {
+	int dia;
+	int mes;
+	int ano;
+	
+	String dataFormada(){
+		return String.format("%d/%d/%d", dia,mes,ano);
+	}
+
+}

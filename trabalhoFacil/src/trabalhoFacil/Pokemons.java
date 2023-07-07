@@ -1,0 +1,21 @@
+package trabalhoFacil;
+
+import java.util.Objects;
+
+public class Pokemons extends p2{
+
+	public Pokemons() {
+		super();
+		// TODO Auto-generated constructor stub
+	}
+
+	public Pokemons(String nome, double peso, double altura, String tipo1, String tipo2) {
+		super(nome, peso, altura, tipo1, tipo2);
+		// TODO Auto-generated constructor stub
+	}
+	
+	
+	
+	
+
+}

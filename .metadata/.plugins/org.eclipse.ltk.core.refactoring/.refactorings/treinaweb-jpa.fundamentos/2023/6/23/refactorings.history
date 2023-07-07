@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Move element &apos;ICRUD.java&apos; to &apos;treinaweb-jpa.fundamentos/src/main/java/br.com.interfaces&apos;&#x0D;&#x0A;- Original project: &apos;treinaweb-jpa.fundamentos&apos;&#x0D;&#x0A;- Destination element: &apos;treinaweb-jpa.fundamentos/src/main/java/br.com.interfaces&apos;&#x0D;&#x0A;- Original element: &apos;br.com.modelJpa.ICRUD.java&apos;&#x0D;&#x0A;- Update references to refactored element" description="Move compilation unit" destination="/src\/main\/java=/optional=/true=/=/maven.pomderived=/true=/&lt;br.com.interfaces" element1="/src\/main\/java=/optional=/true=/=/maven.pomderived=/true=/&lt;br.com.modelJpa{ICRUD.java" files="0" flags="589830" folders="0" id="org.eclipse.jdt.ui.move" patterns="*" policy="org.eclipse.jdt.ui.moveResources" qualified="false" references="true" stamp="1686156910914" units="1" version="1.0"/>
+</session>

@@ -1,0 +1,27 @@
+INDEX VERSION 1.131+C:\Users\lipih\OneDrive\Área de Trabalho\curso-java\.metadata\.plugins\org.eclipse.jdt.core
+188991084.index
+509040298.index
+2209127932.index
+1433877920.index
+3021552449.index
+3022117891.index
+2507905656.index
+472139086.index
+923030890.index
+3406710532.index
+1126826898.index
+1865797976.index
+2633369578.index
+4193276872.index
+84631457.index
+979963106.index
+1740363542.index
+576364964.index
+1758228291.index
+3959137331.index
+25780248.index
+1751515497.index
+2345344046.index
+1226153422.index
+130112618.index
+2295219949.index

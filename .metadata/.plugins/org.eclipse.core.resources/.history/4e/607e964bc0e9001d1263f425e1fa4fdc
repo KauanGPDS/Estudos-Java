@@ -1,0 +1,21 @@
+package oo.composicoesDesafio;
+
+
+
+public class item {
+	int quantidade;
+	Produto p1 = new Produto();
+	
+	item(){
+		
+	}
+	item(int quantidade){
+		this.quantidade = quantidade;
+		
+	}
+	void adicionarItem(new Produto(nome,valor)){
+		
+	}
+	
+
+}

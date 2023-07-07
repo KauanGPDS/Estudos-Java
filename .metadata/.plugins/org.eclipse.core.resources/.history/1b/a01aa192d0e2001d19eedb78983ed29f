@@ -1,0 +1,29 @@
+package orietanacao;
+
+public class data {
+	int dia;
+	int mes;
+	int ano;
+	
+	
+	data(){ 
+		dia = 1;
+		mes = 1;
+		ano = 1970;
+	}
+	data(int diainicial,int mesIncial,int anoInicial){
+		dia = diainicial;
+		mes =mesIncial;
+		ano = anoInicial;
+		
+	}
+	String dataFormatada() {
+		return String.format("%d/%d/%d\n",dia,mes,ano);
+	}
+	void ImprimirDataFormata() {
+		System.out.println(dataFormatada());
+	}
+		
+	}
+
+

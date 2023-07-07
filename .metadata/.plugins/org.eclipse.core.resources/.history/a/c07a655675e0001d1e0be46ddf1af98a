@@ -1,0 +1,13 @@
+package orietanacao;
+
+public class ProdutoTeste {
+	
+	String nome;
+	double preco;
+	double desconto;
+	
+	double precoComDesconto(double preco,double desconto) {
+		return (preco*desconto)/100;
+	}
+
+}

@@ -1,0 +1,9 @@
+package orietanacao;
+
+public class ProdutoTeste {
+	
+	String nome;
+	double preco;
+	double desconto;
+
+}

@@ -1,0 +1,8 @@
+package oo.composicoesDesafio;
+
+public class Clienteteste {
+	public static void main(String[] args) {
+		
+	}
+
+}

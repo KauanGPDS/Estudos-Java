@@ -1,0 +1,12 @@
+package orietanacao;
+
+public class Produto {
+	public static void main(String[] args) {
+		
+		ProdutoTeste p1 = new ProdutoTeste();
+		p1.nome = "note";
+		p1.preco = 4200;
+		p1.desconto = 0.25;
+		
+
+}

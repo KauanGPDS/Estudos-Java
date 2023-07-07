@@ -1,0 +1,8 @@
+package orietanacao;
+
+public class janta {
+	public static void main(String[] args) {
+		pessoa p1 = new pessoa();
+	}
+
+}
